@@ -26,7 +26,7 @@ printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Debian Linux And Paste It Down\n'
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
-printf 'Check https://remotedesktop.google.com/access/ Visit Here'
+printf 'Check https://remotedesktop.google.com/access/ /n'
 if sudo apt-get upgrade &> /dev/null
 then
     printf "\nUpgrade Complete " >&2
