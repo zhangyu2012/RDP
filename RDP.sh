@@ -29,4 +29,4 @@ su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ Visit Here\n'
 if sudo apt-get update &> /dev/null
 then
-    printf " Upgrade complete " >&2
+    printf " Upgrade Complete " >&2
