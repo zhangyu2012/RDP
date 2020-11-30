@@ -1,5 +1,5 @@
 #! /bin/bash
-printf " Installing RDP Be Patience... " >&2
+printf "Installing RDP Be Patience... " >&2
 {
 sudo useradd -m ALOK
 sudo adduser ALOK sudo
@@ -26,7 +26,7 @@ printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Debian Linux And Paste It Down\n'
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
-printf 'Check https://remotedesktop.google.com/access/ /n'
+printf 'Check https://remotedesktop.google.com/access/ '
 if sudo apt-get upgrade &> /dev/null
 then
     printf "\nUpgrade Complete " >&2
