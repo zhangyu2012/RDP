@@ -21,15 +21,15 @@ sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo adduser ALOK chrome-remote-desktop
 } &> /dev/null &&
-printf "\n Setup Complete " >&2 ||
-printf "\n Error Occured " >&2
+printf "\nSetup Complete " >&2 ||
+printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Debian Linux And Paste It Down\n'
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ Visit Here'
 if sudo apt-get upgrade &> /dev/null
 then
-    printf "\n Upgrade Complete " >&2
+    printf "\nUpgrade Complete " >&2
 else
-    printf "\n Error Occured " >&2
+    printf "\nError Occured " >&2
 fi
