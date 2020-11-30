@@ -23,9 +23,9 @@ sudo adduser ALOK chrome-remote-desktop
 } &> /dev/null &&
 printf "\n Setup Complete " >&2 ||
 printf "\n Error Occured " >&2
-printf '\nCheck http://remotedesktop.google.com/headless  Copy Command Debian Linux And Paste It Down\n'
+printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Debian Linux And Paste It Down\n'
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
-printf 'Check http://remotedesktop.google.com/access/ Visit Here\n'
+printf 'Check https://remotedesktop.google.com/access/ Visit Here\n'
 sudo apt-get upgrade
 username = input("DO NOTHING : ")
