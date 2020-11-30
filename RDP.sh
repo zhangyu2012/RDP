@@ -27,7 +27,7 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Debian L
 read -p "Paste Here: " CRP
 su - ALOK -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ Visit Here'
-if sudo apt-get update &> /dev/null
+if sudo apt-get upgrade &> /dev/null
 then
     printf "\n Upgrade Complete " >&2
 else
